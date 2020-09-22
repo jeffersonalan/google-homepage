@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Google.ca</title>
+
+</head>
+
+<!-- CSS Starts-->
+
+<style>
+
+html, body {
+
+    font-family: arial, sans-serif;  
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    }
+
+a {
+
+    color: inherit;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+    }
+
+a:link {
+
+    text-decoration: none;
+
+    }
+
+ a:visited {
+
+     text-decoration: none;
+    }
+
+a:hover {
+
+    text-decoration: underline;
+    
+    }
+
+a:active {
+
+    text-decoration-color: none;
+
+    }
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    }
+
+li {
+
+    display: inline-block;
+    margin-right: 15px;
+        
+    }
+
+
+
+nav {
+    
+    margin: 15px;
+    
+    }
+
+div.nav_left {
+
+     float: left;
+
+    }
+
+div.nav_right {
+
+    float: right;
+
+    }
+
+section {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    max-width: 600px;
+    position:absolute;
+    top: 0; bottom: 50%; left: 0; right: 0;
+    margin: auto;
+    height: 20px; /*requires explicit height*/
+    
+    }
+
+input {
+
+    border: none;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  
+    }   
+
+input:hover {
+    
+    box-shadow: 0px 0px 8px 6px rgba(242, 242, 242, 0.705);
+
+    }
+
+button {
+  
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 25px;
+        
+    }
+
+button:hover {
+
+        border: 1px solid darkgrey;
+
+    }
+
+
+div.buttons {
+  
+     text-align: center;
+
+    }
+
+footer {
+
+        background-color: #f2f2f2;
+        border-top: 1px solid lightgrey;
+        font-size: 15px;
+        color: #0000008A;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        
+    }
+
+
+    div.Canada {
+
+    padding: 12px 0px 12px 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    
+    }
+
+div.bottom {
+
+    background-color: green;
+    }
+
+div.bottom_left {
+
+    float:left;
+    padding: 12px 0px 12px 15px;
+
+    }
+
+div.bottom_right {
+
+    float:right;
+    padding: 12px 20px 12px 15px;
+    background-color: #f2f2f2;
+
+}
+
+
+</style>
+
+<body>
+
+    <nav>
+        <div class="nav_left"> 
+            <ul>
+            <li><a href="https://about.google/">About</a> </li>
+            <li><a href="https://store.google.com/">Store</a> </li>
+        
+        </div>
+
+        <div class="nav_right">
+            <ul>
+                <li><a href="gmail.google.com">Gmail</a></li>
+                <li><a href="images.google.com">Images</a></li>
+                <li><a href="menu">Menu</a> </li>
+                <li><a href="User">User</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <section>
+         <div class="image"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+        
+        <div class="search">
+            <form action="https://google.com/search">
+            <input type="text" name="q" class="box">
+            
+        </div>
+            
+            
+        <div class="buttons">
+            <button type="submit" class="button">Google Search</button>
+            <button type="submit" name="btnI" value="1" class="button">I'm Feeling Lucky</button>
+                <br>
+                <br>
+                        Google offered in: <a style="color:blue;" href="https://www.google.ca/setprefs?sig=0_C0eqHbL5MApIfwr0ztkGbl-n6CY%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwimrIiVjO_rAhVDYs0KHXcaDHMQ2ZgBCBE">Français</a>  
+
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="Canada">Canada</div>
+        
+        <div class="bottom">
+
+            <div class="bottom_left">
+                <ul>
+                    <li><a href="https://ads.google.com/">Advertising</a></li>
+                    <li><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                </ul>        
+            </div>  
+            
+            <div class="bottom_right">
+                <ul>
+                    <li><a href="https://policies.google.com/privacy">Privacy</a> </li>
+                    <li><a href="https://policies.google.com/terms">Terms </a></li>
+                    <li><a href="https://www.google.com/preferences">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
