@@ -1,16 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Advanced Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="as_q">
-            <input type="text" name="as_epq"> 
-            <input type="text" name="as_oq">
-            <input type="text" name="as_eq">
+    
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Advanced Search</title>
+
+</head>
+
+<!-- CSS Starts-->
+
+<style>
+
+html, body {
+
+    font-family: arial, sans-serif;  
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    }
+
+a {
+
+    color: inherit;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+    }
+
+a:link {
+
+    text-decoration: none;
+
+    }
+
+a:visited {
+
+     text-decoration: none;
+    }
+
+a:hover {
+
+    text-decoration: underline;
+    
+    }
+
+a:active {
+
+    text-decoration-color: none;
+
+    }
+
+
+nav {
+    
+    padding: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    }
+
+    .nav_right li {
+
+display: inline-block;
+margin-right: 15px;
+    
+}
+
+div.nav_left {
+
+     float: left;
+
+    }
+
+div.nav_right {
+
+    float: right;
+    padding-top: 10px;
+
+    }
+
+section {
+    padding-left: 35px;
+    background-color: aqua;
+ 
+    }
+
+hr {
+    border-top: 1px solid red;
+}
+
+li{
+
+    list-style-type: none;
+
+}
+
+input {
+
+    <!--gott fix the input boxes-->
+  
+    }   
+
+
+button {
+  
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 25px;
+        
+    }
+
+button:hover {
+
+        border: 1px solid darkgrey;
+
+    }
+
+
+div.buttons {
+  
+     text-align: center;
+
+    }
+
+footer {
+
+        background-color: #f2f2f2;
+        border-top: 1px solid lightgrey;
+        font-size: 15px;
+        color: #0000008A;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        
+    }
+
+
+div.Canada {
+
+    padding: 12px 0px 12px 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    
+    }
+
+div.bottom {
+
+    background-color: green;
+
+    }
+
+div.bottom_left {
+
+    float:left;
+    padding: 12px 0px 12px 15px;
+
+    }
+
+
+</style>
+
+<body>
+
+    <nav>
+        <div class="nav_left"> 
+            <image width=92px height="33px"  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        
+        </div>
+
+            <div class="nav_right">
+            <ol>
+                <li><a href="index.html">Google.ca</a></li>
+                <li><a href="advanced_search.html">Advanced Search</a></li>
+                <li><a href="image_search.html">Images</a></li>
+            </ol>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section>
+            <form action="https://google.com/search">
+
+                <h1>Advanced Search</h1>
+                <hr>
+
+                Find pages with...
+               <ol>
+                <li>all these words:<input type="text" name="as_q">Type the important words: tri-colour rat terrier</li>
+                <li>this exact word or phrase:<input type="text" name="as_epq">Put exact words in quotes: "rat terrrier" </li>
+                <li>any of these words:<input type="text" name="as_oq">Type OR between all the words you want: minature OR standard</li>
+                <li>none of these words:<input type="text" name="as_eq">Put a minus sign just before words that you do't want: -rodent, -"Jak Russell</li>
+                
+                <li><button type="submit" name="" value="" class="button">Advanced Search  </button></li>
+               </ol>
+            </form>
+    </section>
+    
+    
+    <footer>
+        <div class="Canada">Canada</div>
+        
+        <div class="bottom">
+
+            <div class="bottom_left">
+                <ul>
+                    <li><a href="https://ads.google.com/">Help</a></li>
+                    <li><a href="https://smallbusiness.withgoogle.com/">Privacy</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Terms</a></li>
+                </ul>        
+            </div>  
             
-            <button type="submit" name="" value="">Advanced Search  </button>
-        </form>
-    </body>
-</html>
+            
+        </div>
+        
+    </footer>
+
+</body>
